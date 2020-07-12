@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"oceanbox"},{"l":"oceanbox.system"},{"l":"oceanbox.utils"},{"l":"oceanbox.utils.bdd"},{"l":"oceanbox.utils.ftp"},{"l":"oceanbox.utils.propreties"},{"l":"oceanbox.veille"},{"l":"oceanbox.videosettings"}]
