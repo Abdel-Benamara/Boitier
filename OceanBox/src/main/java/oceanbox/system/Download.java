@@ -77,7 +77,9 @@ public class Download {
 
 		try {
 			ClientProperties.setPropertie("nextDownloadTime", nextDownloadTime.toString());
-			DatabaseLoader.setNextDownloadTime();
+			if(InternetConnectivity.checkConnexion(SystemProperties.getPropertie("dbIP"))) {
+				DatabaseLoader.setNextDownloadTime();
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
